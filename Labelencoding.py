@@ -1,4 +1,4 @@
-# encoding category data menas data in words chnage into numerical such that models can able to understands 
+# encoding category data menas data in words change into numerical such that models can able to understands 
 # its two type label encoding and one hot encoding 
 
 # Lable encoding 
