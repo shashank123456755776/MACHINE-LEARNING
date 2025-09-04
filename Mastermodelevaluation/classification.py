@@ -79,3 +79,4 @@ print('F1 Score',f1_score(y_True,y_Predict))#f1 score
 # To baaki students bache = 100 − 25 = 75 students
 
 # Inme se 5 sach me chor the par machine miss kar gayi → FN
+# Bache huye 70 sach me innocent the aur machine ne unhe innocent bola → TN
