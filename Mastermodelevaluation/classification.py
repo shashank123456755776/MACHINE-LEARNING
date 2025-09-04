@@ -65,3 +65,17 @@ print('F1 Score',f1_score(y_True,y_Predict))#f1 score
 # FN ka matlab = reality me chor tha, lekin machine fail ho gayi pakadne me.
 
 # Isliye FN “missed positives” hote hain.
+
+# Machine ne kya kiya?
+
+# Machine ne cheating ke liye pakde = 25
+
+# Unme se 15 sach me cheaters the → TP
+
+# Baaki 10 innocent the → FP
+
+# Matlab, machine ne 25 ko “chor” bola
+
+# To baaki students bache = 100 − 25 = 75 students
+
+# Inme se 5 sach me chor the par machine miss kar gayi → FN
