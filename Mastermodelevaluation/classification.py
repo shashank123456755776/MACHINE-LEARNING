@@ -80,3 +80,12 @@ print('F1 Score',f1_score(y_True,y_Predict))#f1 score
 
 # Inme se 5 sach me chor the par machine miss kar gayi → FN
 # Bache huye 70 sach me innocent the aur machine ne unhe innocent bola → TN
+
+
+
+# FN = Chor tha (Actual Positive) lekin machine ne innocent bola.
+
+# Matlab FN sirf un logon me se nikalta hai jo waaqai chor hain (Actual Positive).
+# Isliye hamesha 20 (Actual Positive) ke group se compare karte hain.
+
+# Toh FN ka matlab hai: chor tha, par machine ne chor bola hi nahi.
