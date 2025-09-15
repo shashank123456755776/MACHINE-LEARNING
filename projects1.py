@@ -9,7 +9,7 @@ model =LinearRegression()
 model.fit(X,y)
 predicted_score =model.predict(X)
 #Evaluate
-mae=mean_absolute_error(y,predicted_score)
+mae=mean_absolute_error(y,predicted_score) #(actual answer ,predicted answer )
 mse=mean_squared_error(y,predicted_score)
 rmse=np.sqrt(mse)
 
