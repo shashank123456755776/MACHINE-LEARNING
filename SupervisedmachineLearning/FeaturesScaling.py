@@ -33,3 +33,14 @@ print(x_train)
 print(x_test)
 print(y_train)
 print(y_test)
+
+
+
+
+# StandardScaler har feature ko comparable scale me le aata hai
+
+# Formula: 
+
+# z=(x−mean)/std
+
+# PCA ya clustering me zaruri hai, nahi to large values dominate karenge
