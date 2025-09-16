@@ -25,3 +25,4 @@ plt.legend()
 plt.grid(True)
 plt.show()
 print(df)
+# plt.scatter(group_data['age'], group_data['spending']) → graph banane ke liye (do alag lists pass karni hoti hain).
